@@ -233,7 +233,7 @@
                 </div>
 
                 <div class="text-center">
-                    <div class="rounded-circle mx-auto volunteer-profile-img" style="background-image: url(<?= get_bloginfo('template_directory') ?>/images/volunteers/hejjasdora.png);"></div>
+                    <div class="rounded-circle mx-auto volunteer-profile-img" style="background-image: url(<?= get_bloginfo('template_directory') ?>/images/volunteers/hejjasdora.jpg);"></div>
                     <h4 class="text-uppercase text-secondary my-1 pt-3">Héjjas Dóra</h4>
                     <div class="text-uppercase small text-muted">pénzügyi koordinátor</div>
 
@@ -263,7 +263,7 @@
                 </div>
 
                 <div class="text-center">
-                    <div class="rounded-circle mx-auto volunteer-profile-img" style="background-image: url(<?= get_bloginfo('template_directory') ?>/images/volunteers/vagyasreka.png);"></div>
+                    <div class="rounded-circle mx-auto volunteer-profile-img" style="background-image: url(<?= get_bloginfo('template_directory') ?>/images/volunteers/vagyasreka.jpg);"></div>
                     <h4 class="text-uppercase text-secondary my-1 pt-3">Vagyas Réka</h4>
                     <div class="text-uppercase small text-muted">Skype-os patrónus</div>
 
