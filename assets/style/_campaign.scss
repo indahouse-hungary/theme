@@ -1,0 +1,69 @@
+.campaign-volunteers-section {
+    .card {
+        font-size: 14px;
+        border: 0;
+        border-radius: 0;
+        border-top: 3px solid theme-color(primary);
+        border-bottom: 3px solid theme-color(primary);
+        -webkit-box-shadow: 10px 10px 54px 0px rgba(0,0,0,0.1);
+        -moz-box-shadow: 10px 10px 54px 0px rgba(0,0,0,0.1);
+        box-shadow: 10px 10px 54px 0px rgba(0,0,0,0.12);
+
+        .icon {
+            width: 155px;
+            height: 155px;
+            margin-top: -126px;
+            background-repeat: no-repeat;
+        }
+
+        .footer {
+            background-color: #FCEEEC;
+        }
+
+        .progress {
+            background-color: white;
+            height: 0.6rem;
+        }
+    }
+}
+
+.campaign-donations {
+    .amount {
+        font-family: $headings-font-family;
+        font-weight: $headings-font-weight;
+        font-size: 20px;
+    }
+
+    .title {
+        color: #323232;
+        font-size: 1rem;
+
+        .date {
+            font-size: 0.87rem;
+            color: #727272;
+        }
+    }
+
+    .message {
+        color: #323232;
+        font-size: 0.87rem;
+        font-style: italic;
+        max-width: 470px;
+        width: 100%;
+    }
+}
+
+.donation-sum {
+    border: 0;
+    border-radius: 0;
+    border-top: 3px solid theme-color(primary);
+    border-bottom: 3px solid theme-color(primary);
+    -webkit-box-shadow: 10px 10px 54px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 10px 10px 54px 0px rgba(0,0,0,0.1);
+    box-shadow: 10px 10px 54px 0px rgba(0,0,0,0.12);
+    top: 80px;
+
+    .footer {
+        background-color: #FCEEEC;
+    }
+}
