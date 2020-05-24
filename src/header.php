@@ -90,7 +90,7 @@
 
                 <div class="d-none d-sm-block">
                     <a href="http://www.joszolgalatdij.hu/201617/szia-indahouse-tanoda" target="_blank">
-                        <img src="https://indahousehungary.trau.hu/wp-content/themes/indahouse/images/partners/joszolgalati-dij.svg" alt="Jószolgálati díj 2017" width="100" style="width: 59px; margin: -7px;" />
+                        <img src="<?= get_bloginfo('template_directory') ?>/assets/svg/joszolgalati-dij.svg" alt="Jószolgálati díj 2017" width="100" style="width: 59px; margin: -7px;" />
                     </a>
                 </div>
             </div>
