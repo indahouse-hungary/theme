@@ -52,25 +52,25 @@
 
             <div class="row p-0 m-0">
                 <div class="col-lg-3 col-sm-6 text-center py-sm-5 py-3 mt-sm-0 mt-3">
-                    <embed src="<?= get_bloginfo('template_directory') ?>/assets/svg/candidate-study-hall.svg" class="mb-3" />
+                    <img src="<?= get_bloginfo('template_directory') ?>/assets/svg/candidate-study-hall.svg" class="mb-3">
                     <h5 class="text-uppercase text-secondary">Tanodázz a gyerekekkel</h5>
                     <p class="text-secondary p-3 p-md-0 py-md-1">Hetente tartunk személyre szabott iskola előkészítő és készségfejlesztő foglalkozásokat 6 -16 éves gyerekeknek, akik számára felbecsülhetetlen az a koncentrált figyelem és bátorítás,amit a tanodai önkénteseinktől kapnak. A törtek osztása csak ráadás :)</p>
                     <a href="<?= get_option('btn_join_us_study_hall', '') ?>" class="btn btn-primary rounded-xl btn-sm px-3">Többet akarok tudni</a>
                 </div>
                 <div class="col-lg-3 col-sm-6 text-center py-sm-5 py-3 mt-sm-0 mt-3">
-                    <embed src="<?= get_bloginfo('template_directory') ?>/assets/svg/candidate-early-childhood.svg" class="mb-3" />
+                    <img src="<?= get_bloginfo('template_directory') ?>/assets/svg/candidate-early-childhood.svg" class="mb-3">
                     <h5 class="text-uppercase text-secondary">Fejleszd a legkisebbeket</h5>
                     <p class="text-secondary p-3 p-md-0 py-md-1">A fejlesztést nem lehet elég korán kezdeni, mert a hátrányok is az első naptól kezdve halmozódnak. A koragyerekkoris önkénteseink házról házra járnak, hogy az 6 évesnél fiatalabb gyerekekkel játékosan tanulják a színeket, formákat, és a számokat.</p>
                     <a href="<?= get_option('btn_join_us_early_childhood', '') ?>" class="btn btn-primary rounded-xl btn-sm px-3">Többet akarok tudni</a>
                 </div>
                 <div class="col-lg-3 col-sm-6  text-center py-sm-5 py-3 mt-sm-0 mt-3">
-                    <embed src="<?= get_bloginfo('template_directory') ?>/assets/svg/candidate-mentor.svg" class="mb-3" />
+                    <img src="<?= get_bloginfo('template_directory') ?>/assets/svg/candidate-mentor.svg" class="mb-3">
                     <h5 class="text-uppercase text-secondary">Legyél mentor</h5>
                     <p class="text-secondary p-3 p-md-0 py-md-1">Az InDaHouse-os gyerek mindig számíthat a mentorára, aki figyelemmel kíséri tanodai és iskolai előrehaladását, kapcsolatot tart a feladatlap készítővel, az iskolával, a családdal. És ami a legfontosabb, odafigyel a gyerek testi-lelki-szellemi fejlődésére.</p>
                     <a href="<?= get_option('btn_join_us_mentor', '') ?>" class="btn btn-primary rounded-xl btn-sm px-3">Többet akarok tudni</a>
                 </div>
                 <div class="col-lg-3 col-sm-6  text-center py-sm-5 py-3 mt-sm-0 mt-3">
-                    <embed src="<?= get_bloginfo('template_directory') ?>/assets/svg/candidate-worksheet.svg" class="mb-3" />
+                    <img src="<?= get_bloginfo('template_directory') ?>/assets/svg/candidate-worksheet.svg" class="mb-3">
                     <h5 class="text-uppercase text-secondary">Készíts feladatlapokat</h5>
                     <p class="text-secondary p-3 p-md-0 py-md-1">A feladatlap készítő önkénteseink gondoskodnak arról, hogy az InDaHouse-os gyerekek hétről-hétre személyre szabott feladatlapokon keresztül gyakorolhassák azt, ami nehezen megy az iskolában. Mottó: Messivel a matek is könnyebben megy!</p>
                     <a href="<?= get_option('btn_join_us_worksheet', '') ?>" class="btn btn-primary rounded-xl btn-sm px-3">Többet akarok tudni</a>
