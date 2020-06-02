@@ -625,6 +625,10 @@
                     <img src="<?= get_bloginfo('template_directory') ?>/images/partners/erste.svg" alt="Erste" />
                 </a>
 
+                <a href="https://www.kahanefoundation.org/" target="_blank" class="mx-2 mb-2 d-inline-block">
+                    <img src="<?= get_bloginfo('template_directory') ?>/images/partners/kahane.svg" alt="Kahane Foundation" />
+                </a>
+
                 <a href="https://drkovacsbalazs.hu/" target="_blank" class="mx-2 mb-2 d-inline-block">
                     <img src="<?= get_bloginfo('template_directory') ?>/images/partners/kbl.svg" alt="KBL" />
                 </a>
