@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Poppins:500|Oswald:400,500|Annie+Use+Your+Telescope:400&display=swap&subset=latin-ext" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="<?= get_bloginfo('template_directory') ?>/assets/style/all.min.css?20200202">
     <link rel="apple-touch-icon" sizes="180x180" href="<?= get_bloginfo('template_directory') ?>/assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="<?= get_bloginfo('template_directory') ?>/assets/favicon/favicon-32x32.png">
@@ -34,12 +33,12 @@
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link py-0 px-0 mr-2 mr-md-4" target="_blank" href="mailto:info@indahousehungary.hu">
-                            <i class="material-icons upper-nav-icon">email</i> <span class="d-none d-sm-inline">info@indahousehungary.hu</span>
+                            <i class="nav-link navbar-icon email mr-2"></i> <span class="d-none d-sm-inline">info@indahousehungary.hu</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link py-0 px-0 mr-4" target="_blank" href="tel:+36705704950">
-                            <i class="material-icons upper-nav-icon">phone_enabled</i> <span class="d-none d-sm-inline">+36705704950‬</span>
+                            <i class="nav-link navbar-icon phone mr-2"></i> <span class="d-none d-sm-inline">+36705704950‬</span>
                         </a>
                     </li>
                     <li class="nav-item">
