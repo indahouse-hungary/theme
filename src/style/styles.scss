@@ -28,6 +28,10 @@ $spacers: (
 
 @import "_template-donate";
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* general page */
 .general-page {
 
