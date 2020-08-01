@@ -20,6 +20,7 @@
                     <ul class="list-unstyled">
                         <li><a href="/wp-content/uploads/2019/09/alapito_okirat_compressed.pdf">Alapító okirat</a></li>
                         <li><a href="/eves-penzugyi-beszamolok/">Éves pénzügyi beszámolók</a></li>
+                        <li><a href="/adatvedelem/">Adatkezelési tájékoztatók</a></li>
                     </ul>
                 </div>
             </div>
