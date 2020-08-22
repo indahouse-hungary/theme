@@ -36,7 +36,7 @@ gulp.task('styles', function() {
             './node_modules/owl.carousel2/dist/assets/owl.carousel.css',
             './node_modules/owl.carousel2/dist/assets/owl.theme.default.min.css',
             './node_modules/lightbox2/dist/css/lightbox.min.css',
-            './src/assets/*.scss'
+            './src/style/*.scss'
         ])
         .pipe(sass().on('error', sass.logError))
         .pipe(autoprefixer({
@@ -44,7 +44,7 @@ gulp.task('styles', function() {
         }))
         .pipe(concat('style.css'))
         .pipe(csso())
-        .pipe(gulp.dest('./build/style.css'));
+        .pipe(gulp.dest('./build'));
 });
 
 gulp.task('images', function() {
