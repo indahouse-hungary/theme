@@ -136,19 +136,6 @@
                 </div>
 
                 <div class="text-center">
-                    <div class="rounded-circle mx-auto volunteer-profile-img" style="background-image: url(<?= get_bloginfo('template_directory') ?>/images/volunteers/nemethdetti.jpg);"></div>
-                    <h4 class="text-uppercase text-secondary my-1 pt-3">Németh Detti</h4>
-                    <div class="text-uppercase small text-muted">iskolaelőkészítő koordinátor</div>
-                    <div class="row my-3">
-                        <div class="col"></div>
-                        <div class="col-md-10">
-                            Mindig is nagyon szerettem gyerekekkel foglalkozni. Egy éve léptem be az InDaHouse kapuin önkéntesként, hogy pedagógusi végzettségeimnek köszönhetően szakmai tudásommal is segíthessem a gyerekeket.
-                        </div>
-                        <div class="col"></div>
-                    </div>
-                </div>
-
-                <div class="text-center">
                     <div class="rounded-circle mx-auto volunteer-profile-img" style="background-image: url(<?= get_bloginfo('template_directory') ?>/images/volunteers/kondorzsuzsi.jpg);"></div>
                     <h4 class="text-uppercase text-secondary my-1 pt-3">Kondor Zsuzsi</h4>
                     <div class="text-uppercase small text-muted">csoportos játék koordinátor</div>
