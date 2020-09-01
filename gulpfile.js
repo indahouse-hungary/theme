@@ -14,7 +14,7 @@ var del = require('del');
 sass.compiler = require('node-sass');
 
 gulp.task('clean', function(){
-    return del('build', {force:true});
+    return del('build/**', {force:true});
 });
 
 gulp.task('copy', function() {
