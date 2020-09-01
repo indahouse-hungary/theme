@@ -55,7 +55,7 @@
 
 .birthday-promo {
     min-height: 300px;
-    background-image: url('../assets/img/gift-girl.jpg');
+    background-image: url('assets/img/gift-girl.jpg');
     background-size: cover;
     background-position: center;
 
@@ -76,7 +76,7 @@
 
 @include media-breakpoint-down(sm) {
     .birthday-promo {
-        background-image: url('../assets/img/gift-girl-m.jpg');
+        background-image: url('assets/img/gift-girl-m.jpg');
         background-position: right;
     }
 }

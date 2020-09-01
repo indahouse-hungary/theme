@@ -12,18 +12,18 @@
 }
 
 .heading-section.bg-1 {
-    background-image: url('../images/headings/heading-1.jpg');
+    background-image: url('images/headings/heading-1.jpg');
 }
 
 @include media-breakpoint-down(sm) {
     .heading-section.bg-1 {
-        background-image: url('../images/headings/heading-1-sm.jpg');
+        background-image: url('images/headings/heading-1-sm.jpg');
         background-position: 0% 50%;
     }
 }
 
 .heading-section.bg-2 {
-    background-image: url('../images/headings/heading-2.jpg');
+    background-image: url('images/headings/heading-2.jpg');
 }
 
 .heading-section-wrapper {
@@ -114,17 +114,17 @@
 
 /* lightbox */
 .lb-nav a.lb-prev {
-    background: url(../assets/img/lightbox/prev.png) left 48% no-repeat;
+    background: url(assets/img/lightbox/prev.png) left 48% no-repeat;
 }
 
 .lb-nav a.lb-next {
-    background: url(../assets/img/lightbox/next.png) right 48% no-repeat;
+    background: url(assets/img/lightbox/next.png) right 48% no-repeat;
 }
 
 .lb-cancel {
-    background: url(../assets/img/lightbox/loading.gif) no-repeat;
+    background: url(assets/img/lightbox/loading.gif) no-repeat;
 }
 
 .lb-data .lb-close {
-    background: url(../assets/img/lightbox/close.png) top right no-repeat;
+    background: url(assets/img/lightbox/close.png) top right no-repeat;
 }
