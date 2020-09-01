@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Oswald:400,500|Annie+Use+Your+Telescope:400&display=swap&subset=latin-ext" rel="stylesheet">
-    <link rel="stylesheet" href="<?= get_bloginfo('template_directory') ?>/assets/style/all.min.css?20200202">
+    <?php wp_enqueue_style( 'style', get_stylesheet_uri() ); ?>
     <link rel="apple-touch-icon" sizes="180x180" href="<?= get_bloginfo('template_directory') ?>/assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="<?= get_bloginfo('template_directory') ?>/assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="<?= get_bloginfo('template_directory') ?>/assets/favicon/favicon-16x16.png">
