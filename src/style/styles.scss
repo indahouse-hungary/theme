@@ -14,7 +14,7 @@ $spacers: (
     8: ($spacer * 8)
 );
 
-@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap/scss/bootstrap";
 
 @import "_general";
 
@@ -27,6 +27,11 @@ $spacers: (
 @import "_donate-form";
 
 @import "_template-donate";
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
 
 /* general page */
 .general-page {

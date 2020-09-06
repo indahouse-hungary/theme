@@ -65,3 +65,8 @@ add_filter('wpcf7_form_elements', function ($content) {
 
     return $content;
 });
+
+/**
+ * Remove old jQuery version from non-admin pages to
+ */
+if ( !is_admin() ) wp_deregister_script('jquery');

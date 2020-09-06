@@ -42,7 +42,7 @@
             </div>
         </section>
     </footer>
-    <script src="<?= get_bloginfo('template_directory') ?>/assets/js/all.min.js?201909174"></script>
+    <?php wp_enqueue_script( 'all.min.js', get_template_directory_uri() . '/js/all.min.js', null, null, true); ?>
     <?php wp_footer() ?>
 </body>
 </html>

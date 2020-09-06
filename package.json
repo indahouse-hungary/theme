@@ -1,31 +1,37 @@
 {
-  "name": "InDaHouse",
+  "name": "indahouse",
   "version": "1.0.0",
   "description": "InDaHouse Hungary Egyesület weboldala",
   "repository": "",
   "license": "BSD-2-Clause",
   "main": "index.php",
   "dependencies": {
-    "bootstrap": "~4.3.1",
-    "jarallax": "~1.11.0",
-    "jquery": "~3.4.1",
-    "lightbox2": "~2.11.1",
-    "owl.carousel2": "~2.2.1",
-    "popper.js": "~1.15.0"
+    "bootstrap": "4.5.0",
+    "jarallax": "1.12.1",
+    "jquery": "3.5.1",
+    "lightbox2": "2.11.1",
+    "owl.carousel2": "2.2.1",
+    "popper.js": "1.16.1"
   },
   "devDependencies": {
+    "del": "^5.1.0",
     "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^7.0.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-csso": "^3.0.1",
-    "gulp-image-resize": "^0.13.1",
-    "gulp-imagemin": "^6.1.0",
-    "gulp-rename": "^1.4.0",
-    "gulp-sass": "^4.0.2",
-    "gulp-uglify-es": "^1.0.4",
-    "node-sass": "^4.12.0"
+    "gulp-autoprefixer": "7.0.1",
+    "gulp-concat": "2.6.1",
+    "gulp-csso": "4.0.1",
+    "gulp-image-resize": "0.13.1",
+    "gulp-imagemin": "7.1.0",
+    "gulp-rename": "2.0.0",
+    "gulp-sass": "4.1.0",
+    "gulp-uglify-es": "2.0.0",
+    "node-sass": "4.14.1"
   },
   "scripts": {
+    "clean": "gulp clean",
+    "build": "gulp default",
+    "build:styles": "gulp styles",
+    "build:copy": "gulp copy",
+    "build:scripts": "gulp scripts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": ""
