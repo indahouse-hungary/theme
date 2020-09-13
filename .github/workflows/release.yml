@@ -1,3 +1,4 @@
+name: Release workflow
 on:
     push:
       # Sequence of patterns matched against refs/tags
@@ -13,7 +14,7 @@ jobs:
         - name: Build project # This would actually build your project, using zip for an example artifact
           run: npm run build
         - name: Compress to ZIP
-            zip --junk-paths indahouse build
+          run:  zip --junk-paths indahouse build
         - name: Create Release
           id: create_release
           uses: actions/create-release@v1
