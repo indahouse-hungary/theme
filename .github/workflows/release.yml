@@ -23,7 +23,8 @@ jobs:
             args: zip -qq -r indahouse.zip build
         - uses: actions/upload-artifact@v2
           with:
-            name: indahouse.zip
+            name: theme-zip
+            path: indahouse.zip
         - name: Create Release
           id: create_release
           uses: actions/create-release@v1
