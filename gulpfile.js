@@ -6,7 +6,6 @@ var concat = require('gulp-concat');
 var autoprefixer = require('gulp-autoprefixer');
 var csso = require('gulp-csso');
 var uglify = require('gulp-uglify-es').default;
-var imagemin = require('gulp-imagemin');
 var rename = require('gulp-rename');
 var imageResize = require('gulp-image-resize');
 var del = require('del');
@@ -62,11 +61,9 @@ gulp.task('images', function() {
                     crop : true,
                     upscale : true
                 }))
-                .pipe(imagemin())
                 .pipe(gulp.dest('./build/images/construction/thumbnails'))
         }).on('end', function() {
             return gulp.src(['./build/images/*/*'])
-                .pipe(imagemin())
                 .pipe(gulp.dest('./build/images'))
         });
 
