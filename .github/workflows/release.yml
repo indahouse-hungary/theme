@@ -3,7 +3,7 @@ on:
     push:
       # Sequence of patterns matched against refs/tags
       tags:
-      - 'v*' # Push events to matching v*, i.e. v1.0, v20.15.10
+      - '*' # Push events to matching *, i.e. 1.0, 20.15.10
 jobs:
     build:
       name: Upload Release Asset
@@ -17,14 +17,16 @@ jobs:
             node-version: 14.x
         - name: Build project # This would actually build your project, using zip for an example artifact
           run: npm ci && npm run build --if-present
+        - name: Rename build folder
+          run: mv build indahouse
         - name: Compress to ZIP
           uses: montudor/action-zip@v0.1.0
           with:
-            args: zip -qq -r indahouse.zip build
+            args: zip -qq -r build.zip indahouse
         - uses: actions/upload-artifact@v2
           with:
             name: theme-zip
-            path: indahouse.zip
+            path: build.zip
         - name: Create Release
           id: create_release
           uses: actions/create-release@v1
@@ -42,6 +44,6 @@ jobs:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           with:
             upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps 
-            asset_path: ./indahouse.zip
-            asset_name: indahouse.zip
+            asset_path: ./build.zip
+            asset_name: indahouse.${{ github.ref }}.zip
             asset_content_type: application/zip
