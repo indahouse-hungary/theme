@@ -20,9 +20,7 @@ jobs:
         - name: Rename build folder
           run: mv build indahouse
         - name: Compress to ZIP
-          uses: montudor/action-zip@v0.1.0
-          with:
-            args: zip -qq -r build.zip indahouse
+          run: zip -qq -r build.zip indahouse
         - uses: actions/upload-artifact@v2
           with:
             name: theme-zip
