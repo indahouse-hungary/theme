@@ -98,6 +98,10 @@ gulp.task('scripts:watch', function() {
     gulp.watch('./src/js/main.js', gulp.series('scripts'));
 });
 
+gulp.task('watch', function() {
+    gulp.watch('./src/**', gulp.series('default'));
+});
+
 gulp.task('build', gulp.parallel('styles', 'scripts', 'images'));
 
 gulp.task('default', gulp.series(['clean', 'build', 'copy']));
