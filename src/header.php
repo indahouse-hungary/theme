@@ -77,19 +77,15 @@
                     'walker'          => new WP_Bootstrap_Navwalker(),
                 )) ?>
 
-                    <?php /* <?php wp_nav_menu([
-                        'theme_location' => 'mainmenu',
-                        'container' => '',
-                        'fallback_cb' => false,
-                        'link_attrs' => ['class' => 'nav-link'],
-                        'li_attrs' => ['class' => 'nav-item'],
-                        'menu_class' => 'navbar-nav text-uppercase py-1 text-center',
-                    ]); ?> */ ?>
-
-
-                <div class="d-none d-sm-block">
-                    <a href="http://www.joszolgalatdij.hu/201617/szia-indahouse-tanoda" target="_blank">
-                        <img src="<?= get_bloginfo('template_directory') ?>/assets/svg/joszolgalati-dij.svg" alt="Jószolgálati díj 2017" width="100" style="width: 59px; margin: -7px;" />
+                <div class="d-none d-md-flex">
+                    <a href="https://civildij.hu/dontosok-dijazottak-2020/" target="_blank" class="mx-2">
+                        <img src="<?= get_bloginfo('template_directory') ?>/assets/svg/civil-dij.svg" alt="Civil díj 2020" width="100" style="width: 59px; margin: -12px;" />
+                    </a>
+                    <a href="http://www.edisonplatform.hu/edison100-2020/" target="_blank" class="mx-2">
+                        <img src="<?= get_bloginfo('template_directory') ?>/assets/svg/edison-100.svg" alt="Edison 100 díj" width="100" style="width: 59px; margin: -1px" />
+                    </a>
+                    <a href="http://www.joszolgalatdij.hu/201617/szia-indahouse-tanoda" target="_blank" class="ml-2">
+                        <img src="<?= get_bloginfo('template_directory') ?>/assets/svg/joszolgalati-dij.svg" alt="Jószolgálati díj 2017" width="100" style="width: 59px; margin: -5px;" />
                     </a>
                 </div>
             </div>
