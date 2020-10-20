@@ -608,6 +608,10 @@
                     <img src="<?= get_bloginfo('template_directory') ?>/images/partners/colt.svg" alt="Colt" />
                 </a>
 
+                <a href="https://www.corden.hu/" target="_blank" class="mx-2 mb-2 d-inline-block">
+                    <img src="<?= get_bloginfo('template_directory') ?>/images/partners/corden.png" alt="Corden" />
+                </a>
+
                 <a href="http://erstebank.hu/" target="_blank" class="mx-2 mb-2 d-inline-block">
                     <img src="<?= get_bloginfo('template_directory') ?>/images/partners/erste.svg" alt="Erste" />
                 </a>
