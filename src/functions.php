@@ -67,15 +67,6 @@ add_filter('wpcf7_form_elements', function ($content) {
 });
 
 /**
- * Make post images responsive (again?)
- */
-add_filter('get_image_tag_class','indahouse_add_image_class');
-function indahouse_add_image_class ($class){
-    $class .= ' img-fluid';
-    return $class;
-}
-
-/**
  * Remove old jQuery version from non-admin pages to
  */
 if ( !is_admin() ) wp_deregister_script('jquery');
