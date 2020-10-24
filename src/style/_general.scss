@@ -50,3 +50,7 @@ span.wpcf7-list-item {
 .blocks-gallery-item figure {
     align-items: center !important;
 }
+
+.wp-block-image img {
+    height: auto;
+}
