@@ -27,7 +27,7 @@
   },
   "scripts": {
     "clean": "gulp clean",
-    "watch": "gulp build watch",
+    "watch": "gulp default watch",
     "build": "gulp default",
     "build:styles": "gulp styles",
     "build:copy": "gulp copy",
