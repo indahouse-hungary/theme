@@ -79,7 +79,7 @@
 
                 <div class="d-none d-md-flex">
                     <a href="https://civildij.hu/dontosok-dijazottak-2020/" target="_blank" class="mx-2">
-                        <img src="<?= get_bloginfo('template_directory') ?>/assets/svg/civil-dij.svg" alt="Civil díj 2020" width="100" style="width: 59px; margin: -12px;" />
+                        <img src="<?= get_bloginfo('template_directory') ?>/assets/svg/civil-dij.svg" alt="Civil díj 2020" width="100" style="width: 74px; margin: -22px; margin-right: -10px" />
                     </a>
                     <a href="http://www.edisonplatform.hu/edison100-2020/" target="_blank" class="mx-2">
                         <img src="<?= get_bloginfo('template_directory') ?>/assets/svg/edison-100.svg" alt="Edison 100 díj" width="100" style="width: 59px; margin: -1px" />
