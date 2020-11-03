@@ -111,7 +111,7 @@ EOT;
                                     <h3>Támogass!</h3>
                                 <?php endif ?>
                             <?php endif ?>
-                            <?= do_shortcode("[furik_donate_form]"); ?>
+                            <?= do_shortcode("[furik_donate_form enable_monthly=true enable_newsletter=true]"); ?>
                         </div>
                     </div>
                 </div>

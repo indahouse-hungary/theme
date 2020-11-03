@@ -3,7 +3,7 @@
     <footer>
         <section class="center-section mx-auto py-5">
             <div class="row p-0 m-0 text-center">
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <h5 class="text-uppercase mb-3">Kapcsolat</h5>
                     <ul class="list-unstyled">
                         <li><strong>InDaHouse Hungary Egyesület</strong></li>
@@ -15,7 +15,13 @@
                         <li>IBAN: HU79116000060000000083572155</li>
                     </ul>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-4">
+                    <h5 class="text-uppercase mb-3">Rendszeres támogatás</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="/login">Bejelentkezés</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
                     <h5 class="text-uppercase mb-3">Hivatalos dolgok</h5>
                     <ul class="list-unstyled">
                         <li><a href="/wp-content/uploads/2019/09/alapito_okirat_compressed.pdf">Alapító okirat</a></li>

@@ -58,12 +58,12 @@
         text-transform: none;
     }
 
-    .furik-form-accept a {
+    .furik-form-accept a, .furik-form-accept-reg a, .form-check-label {
         color: white;
         text-transform: none;
     }
 
-    .furik-form-accept label {
+    .furik-form-accept label, .furik-form-accept-reg label, .form-check-label {
         opacity: 1;
     }
 
@@ -85,13 +85,15 @@
         }
     }
 
-    .submit-btn, .simple-logo {
-        display: inline-block;
-        width: 50%;
+    .form-check-label a {
+        color: white;
+        text-decoration: underline;
     }
 
+
     .simple-logo {
-        text-align: right;
+        text-align: center;
+        margin-top: 20px;
     }
 
     .footer-btns {
